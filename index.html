@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Livro Diário</title>
+</head>
+<body>
+<Header class="enunciadoClass">
+    <h1>Emulador de Atividades <br> Livro Diário - Contabilidade</h1>
+    <div>
+
+    </div>
+</Header>
+<main>
+    <div class="conteiner">
+        <label for="">
+            <h3>Gerador de Atividades</h3>
+        </label>
+        <div class="conteiner2">
+            <div>
+                <input type="checkbox" id="razonetesId">Razonetes
+                <input type="checkbox" id="balancetesId">Balancetes
+                <input type="checkbox" id="resultadodoExeId">Resultado do Exercício
+                <input type="checkbox" id="demostrativoId">Demostrativo
+                <input type="checkbox" id="balancoPatrimId">Balanço Patrimonial
+            </div>
+        <div class="divClass1">
+            <div class="divClassDific">
+                <b>Dificuldade:</b>
+                <select name="dificuladadeName" id="dificuladadeId">
+                    <option value="1">Básica</option>
+                    <option value="2">Média</option>
+                    <option value="3">Difícil</option>
+                </select>
+            </div>
+            <div class="divClassNivel">
+                <label for="niveisId">
+                    <b>Nível:</b>
+                </label>
+                <select name="nivelName" id="niveisId" class="nivelClass">
+                    <option value="1">Nível 1</option>
+                    <option value="2">Nível 2</option>
+                    <option value="3">Nível 3</option>
+                </select>
+            </div>
+            <p>
+                
+            </p>
+        </div>
+        <div>
+            <input type="submit" value="Gerando Atividade" class="submitClass" id="submitId" onclick="gerandoAtivi()"/>
+        </div>
+        <div class="divClass2">
+            <div>
+                <b>
+                De Acordo com o enunciado!
+                </b>
+                <div id="enunciadoId"></div>
+            </div>
+            <p> &nbsp </p>
+        </div>
+        </div>
+    </div>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
