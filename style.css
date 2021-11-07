@@ -23,10 +23,10 @@
         width: 60%;
         background-color: #70abcf;
         box-shadow: 0 0 20px 0 #095484;
-        background: #70abcf80 url(./img/logo.png) no-repeat right bottom;
+        background: #70abcf80 url(./img/logo.png) no-repeat right top;
         background-size: cover;
         background-size: contain;
-        background-size: 25%;
+        background-size: 20%;
         padding: 1em;
     }
 
